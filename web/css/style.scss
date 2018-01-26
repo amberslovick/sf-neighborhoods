@@ -9,21 +9,41 @@ $color-park: #b0bc22;
 .parks, .d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10 {
 	stroke: #fff;
 	stroke-miterlimit: 10;
+	transition: all 300ms;
 }
 .d1, .d4, .d8 {
 	fill: $color-a;
+
+	&:hover {
+		fill: lighten($color-a, 20%);
+	}
 }
 .d2, .d6, .d10 {
 	fill: $color-b;
+
+	&:hover {
+		fill: lighten($color-b, 20%);
+	}
 }
 .d3, .d9 {
 	fill: $color-c;
+
+	&:hover {
+		fill: lighten($color-c, 20%);
+	}
 }
 .d5, .d7 {
 	fill: $color-d;
+
+	&:hover {
+		fill: lighten($color-d, 20%);
+	}
 }
 .parks {
 	fill: $color-park;
+	&:hover {
+		fill: lighten($color-park, 20%);
+	}
 }
 
 .container {
