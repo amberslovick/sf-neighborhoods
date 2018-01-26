@@ -1,2 +1,2 @@
-.parks,.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10{stroke:#fff;stroke-miterlimit:10}.d1{fill:#6fcde4}.d2{fill:#ffa922}.d3{fill:#40b6e5}.d4{fill:#6fcde4}.d5{fill:#ffd705}.d6{fill:#ffa922}.d7{fill:#ffd705}.d8{fill:#6fcde4}.d9{fill:#40b6e5}.d10{fill:#ffa922}.parks{fill:#b0bc22}.container{max-width:800px;margin-left:auto;margin-right:auto}
+.parks,.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.d9,.d10{stroke:#fff;stroke-miterlimit:10}.d1,.d4,.d8{fill:#6fcde4}.d2,.d6,.d10{fill:#ffa922}.d3,.d9{fill:#40b6e5}.parks{fill:#b0bc22}.container{max-width:800px;margin-left:auto;margin-right:auto}
 /*# sourceMappingURL=style.min.css.map */
