@@ -18,8 +18,8 @@ $(document).ready(function() {
 	);
 	$(document).on('mousemove', function(e){
 	    $('#dist-popup').css({
-	       left:  e.pageX,
-	       top:   e.pageY
+	       left:  e.pageX - $('#dist-popup').width()/2,
+	       top:   e.pageY - 50
 	    });
 	});
 });
