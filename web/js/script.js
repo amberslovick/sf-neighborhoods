@@ -3,7 +3,7 @@ $(document).ready(function() {
 		function(){ // mousein
 			var sdname = $(this).data("name");
 			$("#dist-popup").text(sdname);
-			$("#dist-popup").fadeIn();
+			$("#dist-popup").stop(true, true).fadeIn();
 		}, function(){ // mouseout
 			// stuff on mouse out
 			//$("#dist-popup").fadeOut();
@@ -11,7 +11,7 @@ $(document).ready(function() {
 	);
 	$("#back").hover(
 		function(){ // mousein
-			$("#dist-popup").fadeOut();
+			$("#dist-popup").stop(true, true).fadeOut();
 		}, function(){ // mouseout
 			//$("#dist-popup").fadeOut();
 		}
@@ -19,7 +19,7 @@ $(document).ready(function() {
 	$(document).on('mousemove', function(e){
 	    $('#dist-popup').css({
 	       left:  e.pageX - $('#dist-popup').width()/2,
-	       top:   e.pageY - 50
+	       top:   e.pageY - 40
 	    });
 	});
 });
