@@ -51,6 +51,9 @@ body {
 		fill: lighten($color-park, 10%);
 	}
 }
+#back {
+	fill: $color-water;
+}
 
 .container {
 	max-width: 800px;

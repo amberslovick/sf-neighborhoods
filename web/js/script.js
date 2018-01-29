@@ -3,8 +3,17 @@ $(document).ready(function() {
 		function(){ // mousein
 			var sdname = $(this).data("name");
 			$("#dist-popup").text(sdname);
+			$("#dist-popup").fadeIn();
 		}, function(){ // mouseout
-
+			// stuff on mouse out
+			//$("#dist-popup").fadeOut();
+		}
+	);
+	$("#back").hover(
+		function(){ // mousein
+			$("#dist-popup").fadeOut();
+		}, function(){ // mouseout
+			//$("#dist-popup").fadeOut();
 		}
 	);
 });
