@@ -16,4 +16,10 @@ $(document).ready(function() {
 			//$("#dist-popup").fadeOut();
 		}
 	);
+	$(document).on('mousemove', function(e){
+	    $('#dist-popup').css({
+	       left:  e.pageX,
+	       top:   e.pageY
+	    });
+	});
 });
