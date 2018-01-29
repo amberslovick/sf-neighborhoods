@@ -1,10 +1,10 @@
 // sass --watch style.scss:style.min.css --style compressed
 
-$color-a: #457B9D;
-$color-b: #E9C46A;
-$color-c: #F4A261;
-$color-d: #E76F51;
-$color-park: #2A9D8F;
+$color-a: #37d0f0;
+$color-b: #2ab0cc;
+$color-c: #72c5dd;
+$color-d: #53b8d5;
+$color-park: #26a79b;
 $color-water: #264653;
 
 body {
@@ -12,7 +12,7 @@ body {
 }
 
 .parks, .d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10 {
-	stroke: #fff;
+	stroke: #c0eded;
 	stroke-miterlimit: 10;
 	transition: all 500ms;
 }
