@@ -1,12 +1,15 @@
 [
 	{
 		"id": "Sea_Cliff",
+		"index": 0,
 		"name": "Sea Cliff",
 		"district": "1",
 		"url": "https://zephyrre.com/communities/sea-cliff/",
 		"photo": "https://farm5.staticflickr.com/4206/35292385745_ca20aac527_z.jpg"
-	} {
+	},
+	{
 		"id": "Alamo_Square",
+		"index": 1,
 		"name": "Alamo Square",
 		"district": "6",
 		"url": "https://zephyrre.com/communities/alamo-square/",
