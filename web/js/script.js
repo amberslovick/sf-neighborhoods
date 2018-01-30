@@ -47,16 +47,18 @@ $(document).ready(function() {
 	$.ajax({
 		url:"js/data.json",
 		dataType:"json"
-	})
-	.done(function(d){
+	}).fail(function( jqXHR, textStatus ) {
+	  console.log( "Request failed: " + textStatus );
+	}).done(function(d){
 		console.log("success", d);
 		db = d;
-		showNeighborhood(db);
+		//showNeighborhood(db);
 	})
 
 	$("body").on("click", nhoods, function(){
+		console.log($(this).data());
 		showData(
-			[db[$(this).attr("id")]],
+			[db[$(this).data("index")]],
 			$("#neighborhood-info-template").html(),
 			"#neighborhood-info-container"
 		);
