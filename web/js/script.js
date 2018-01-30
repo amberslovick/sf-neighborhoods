@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	var nhoods = ".parks, .d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10";
-	
+
 	$(nhoods).hover(
 		function(){ 
 			// mousein
@@ -56,10 +56,9 @@ $(document).ready(function() {
 
 	$("body").on("click", nhoods, function(){
 		showData(
-			[db[$(this).data("id")]],
+			[db[$(this).attr("id")]],
 			$("#neighborhood-info-template").html(),
 			"#neighborhood-info-container"
 		);
-
 	})
 });
