@@ -19,8 +19,36 @@ $(document).ready(function() {
 	);
 	$(document).on('mousemove', function(e){
 	    $('#dist-popup').css({
-	       left:  e.pageX - $('#dist-popup').width()/2,
-	       top:   e.pageY - 40
+	       left: e.pageX - $('#dist-popup').width()/2,
+	       top: e.pageY - 40
 	    });
 	});
+
+	var db = [];
+
+	function showData(arr,str,tar){
+		var result = "";
+		var temp = _.template(str);
+		for(var i in arr) {
+			result += temp(arr[i]);
+		}
+		$(tar).html(result);
+	}
+	function showNeighborhood(db){
+		showData(
+			db,
+			$("#neighborhood-info-template").html(),
+			"#neighborhood-info-container"
+		);
+	}
+
+	$.ajax({
+		url:"js/data.json",
+		dataType:"json"
+	})
+	.done(function(d){
+		console.log("success", d);
+		db = d;
+		showNeighborhood(db);
+	})
 });
