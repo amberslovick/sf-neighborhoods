@@ -7,7 +7,7 @@ $color-d: #53b8d5;
 $color-park: #26a79b;
 $color-water: #264653;
 $color-stroke: #c0eded;
-$font-stack: Gotham, Raleway, helvetica, arial, sans-serif;
+$font-stack: "Gotham", "Raleway", helvetica, arial, sans-serif;
 
 body {
 	background-color: $color-water;
@@ -77,8 +77,33 @@ body {
 	}
 }
 
+#neighborhood-info-container {
+	font-family: $font-stack;
+	width: 33%;
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	@media (max-width: 680px) {
+		width: 100%;
+	}
+}
+
+svg {
+	width: 66%;
+	@media (max-width: 680px) {
+		width: 100%;
+	}
+}
+
 .container {
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+
+	@media (max-width: 680px) {
+		flex-direction: column;
+	}
 }
