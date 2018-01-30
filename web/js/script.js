@@ -56,7 +56,9 @@ $(document).ready(function() {
 	})
 
 	$("body").on("click", nhoods, function(){
-		console.log($(this).data());
+		//console.log($(this).data());
+		$(".active").removeClass("active");
+		$(this).addClass("active");
 		showData(
 			[db[$(this).data("index")]],
 			$("#neighborhood-info-template").html(),

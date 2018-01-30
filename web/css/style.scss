@@ -16,7 +16,9 @@ body {
 .parks, .d1, .d2, .d3, .d4, .d5, .d6, .d7, .d8, .d9, .d10 {
 	stroke: $color-stroke;
 	stroke-miterlimit: 10;
+	stroke-width: 2px;
 	transition: all 500ms;
+	z-index: 1;
 }
 .d1, .d4, .d8 {
 	fill: $color-a;
@@ -78,8 +80,14 @@ body {
 }
 
 #neighborhood-info-container {
-	font-family: $font-stack;
 	width: 33%;
+	
+	h2 {
+		color: $color-stroke;
+		text-align: center;
+		font-family: $font-stack;
+		font-weight: 400;
+	}
 
 	img {
 		max-width: 100%;
@@ -93,6 +101,7 @@ body {
 
 svg {
 	width: 66%;
+
 	@media (max-width: 680px) {
 		width: 100%;
 	}
@@ -105,5 +114,23 @@ svg {
 
 	@media (max-width: 680px) {
 		flex-direction: column;
+	}
+}
+
+.active {
+	&.d1, &.d4, &.d8 {
+		fill: darken($color-a, 10%);
+	}
+	&.d2, &.d6, &.d10 {
+		fill: darken($color-b, 10%);
+	}
+	&.d3, &.d9 {
+		fill: darken($color-c, 10%);
+	}
+	&.d5, &.d7 {
+		fill: darken($color-d, 10%);
+	}
+	&.parks {
+		fill: darken($color-park, 10%);
 	}
 }
