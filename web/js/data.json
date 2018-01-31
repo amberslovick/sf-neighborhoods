@@ -1,18 +1,745 @@
 [
 	{
-		"id": "Sea_Cliff",
+		"id": "Alamo_Square",
 		"index": 0,
+		"name": "Alamo Square",
+		"district": "6",
+		"url": "https://zephyrre.com/communities/alamo-square/",
+		"photo": "https://farm5.staticflickr.com/4268/35231616256_f95638557d_z.jpg"
+	},
+	{
+		"id": "Anza_Vista",
+		"index": 1,
+		"name": "Anza Vista",
+		"district": "6",
+		"url": "https://zephyrre.com/communities/anza-vista/",
+		"photo": "https://farm5.staticflickr.com/4234/34428104474_39f343c9ef_z.jpg"
+	},
+	{
+		"id": "Balboa_Terrace",
+		"index": 2,
+		"name": "Balboa Terrace",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/balboa-terrace/",
+		"photo": "https://farm5.staticflickr.com/4202/34884721220_73422b154d_z.jpg"
+	},
+	{
+		"id": "Bayview",
+		"index": 3,
+		"name": "Bayview",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/bayview/",
+		"photo": "https://farm5.staticflickr.com/4236/35272196975_0c5ffaf3a0_z.jpg"
+	},
+	{
+		"id": "Bayview_Heights",
+		"index": 4,
+		"name": "Bayview Heights",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/bayview-heights/",
+		"photo": "https://farm5.staticflickr.com/4263/35272229845_98c20d2d90_z.jpg"
+	},
+	{
+		"id": "Bernal_Heights",
+		"index": 5,
+		"name": "Bernal Heights",
+		"district": "9",
+		"url": "https://zephyrre.com/communities/bernal-heights/",
+		"photo": "https://farm5.staticflickr.com/4242/34428297564_5423eb26bf_z.jpg"
+	},
+	{
+		"id": "Buena_Vista_Ashbury_Heights",
+		"index": 6,
+		"name": "Buena Vista / Ashbury Heights",
+		"district": "5",
+		"url": "https://zephyrre.com/communities/buena-vistaashbury-heights/",
+		"photo": "https://farm5.staticflickr.com/4226/35142107251_703e5c1c54_z.jpg"
+	},
+	{
+		"id": "Candlestick_Point",
+		"index": 7,
+		"name": "Candlestick Point",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/candlestick-point/",
+		"photo": "https://farm5.staticflickr.com/4281/35142440301_4e0d8445d3_z.jpg"
+	},
+	{
+		"id": "Central_Richmond",
+		"index": 8,
+		"name": "Central Richmond",
+		"district": "1",
+		"url": "https://zephyrre.com/communities/central-richmond/",
+		"photo": "https://farm5.staticflickr.com/4285/34462989643_6f44f8027e_z.jpg"
+	},
+	{
+		"id": "Central_Sunset",
+		"index": 9,
+		"name": "Central Sunset",
+		"district": "2",
+		"url": "https://zephyrre.com/communities/central-sunset/",
+		"photo": "https://farm5.staticflickr.com/4268/34885243850_02dbb8566b_z.jpg"
+	},
+	{
+		"id": "Central_Waterfront_Dogpatch",
+		"index": 10,
+		"name": "Central Waterfront / Dogpatch",
+		"district": "9",
+		"url": "https://zephyrre.com/communities/central-waterfrontdogpatch/",
+		"photo": "https://farm5.staticflickr.com/4290/35272742155_ce6f203ff7_z.jpg"
+	},
+	{
+		"id": "Clarendon_Heights",
+		"index": 11,
+		"name": "Clarendon Heights",
+		"district": "5",
+		"url": "https://zephyrre.com/communities/clarendon-heights/",
+		"photo": "https://farm5.staticflickr.com/4249/34463069173_e03a26ea1b_z.jpg"
+	},
+	{
+		"id": "Cole_Valley_Parnassus_Heights",
+		"index": 12,
+		"name": "Cole Valley / Parnassus Heights",
+		"district": "5",
+		"url": "https://zephyrre.com/communities/cole-valley-parnassus-heights/",
+		"photo": "https://farm5.staticflickr.com/4247/34885354270_be852946f4_z.jpg"
+	},
+	{
+		"id": "Corona_Heights",
+		"index": 13,
+		"name": "Corona Heights",
+		"district": "5",
+		"url": "https://zephyrre.com/communities/corona-heights/",
+		"photo": "https://farm5.staticflickr.com/4196/34885474820_db79f0370b_z.jpg"
+	},
+	{
+		"id": "Cow_Hollow",
+		"index": 14,
+		"name": "Cow Hollow",
+		"district": "7",
+		"url": "https://zephyrre.com/communities/cow-hollow/",
+		"photo": "https://farm5.staticflickr.com/4282/35232698876_b9b3684712_z.jpg"
+	},
+	{
+		"id": "Crocker_Amazon",
+		"index": 15,
+		"name": "Crocker Amazon",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/crocker_amazon/",
+		"photo": "https://farm5.staticflickr.com/4210/35232906976_f88dfee24c_z.jpg"
+	},
+	{
+		"id": "Diamond_Heights",
+		"index": 16,
+		"name": "Diamond Heights",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/diamond_heights/",
+		"photo": "https://farm5.staticflickr.com/4199/35232920026_ff13443eec_z.jpg"
+	},
+	{
+		"id": "Downtown",
+		"index": 17,
+		"name": "Downtown",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/downtown/",
+		"photo": "https://farm5.staticflickr.com/4278/35273449445_46a5a21215_z.jpg"
+	},
+	{
+		"id": "Duboce_Triangle",
+		"index": 18,
+		"name": "Duboce Triangle",
+		"district": "5",
+		"url": "https://zephyrre.com/communities/duboce-triangle/",
+		"photo": "https://farm5.staticflickr.com/4277/35247995716_2beb56674d_z.jpg"
+	},
+	{
+		"id": "Eureka_Valley_Dolores_Heights_Castro",
+		"index": 19,
+		"name": "Eureka Valley / Dolores Heights / Castro",
+		"district": "5",
+		"url": "https://zephyrre.com/communities/eureka-valley-dolores-heights/",
+		"photo": "https://farm5.staticflickr.com/4202/35248064586_a249fcf5b2_z.jpg"
+	},
+	{
+		"id": "Excelsior",
+		"index": 20,
+		"name": "Excelsior",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/Excelsior/",
+		"photo": "https://farm5.staticflickr.com/4243/34901045500_a6c8d957ed_z.jpg"
+	},
+	{
+		"id": "Financial_District_Barbary_Coast",
+		"index": 21,
+		"name": "Financial District / Barbary Coast",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/financial-district-barbary-coast/",
+		"photo": "https://farm5.staticflickr.com/4230/35288374455_3f19d58873_z.jpg"
+	},
+	{
+		"id": "Forest_Hill",
+		"index": 22,
+		"name": "Forest Hill",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/forest-hill/",
+		"photo": "https://farm5.staticflickr.com/4199/35158692671_21e1b155dc_z.jpg"
+	},
+	{
+		"id": "Forest_Hill_Extension",
+		"index": 23,
+		"name": "Forest Hill Extension",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/forest-hill-extension/",
+		"photo": "https://farm5.staticflickr.com/4233/34479196783_76fe509da5_z.jpg"
+	},
+	{
+		"id": "Forest_Knolls",
+		"index": 24,
+		"name": "Forest Knolls",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/forest-knolls/",
+		"photo": "https://farm5.staticflickr.com/4280/34445435204_4005d182ef_z.jpg"
+	},
+	{
+		"id": "Glen_Park",
+		"index": 25,
+		"name": "Glen Park",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/glen-park/",
+		"photo": "https://farm5.staticflickr.com/4278/34445457064_5c2dcfa606_z.jpg"
+	},
+	{
+		"id": "Golden_Gate_Heights",
+		"index": 26,
+		"name": "Golden Gate Heights",
+		"district": "2",
+		"url": "https://zephyrre.com/communities/golden-gate-heights/",
+		"photo": "https://farm5.staticflickr.com/4211/35249045506_7006822aee_z.jpg"
+	},
+	{
+		"id": "Haight_Ashbury",
+		"index": 27,
+		"name": "Haight Ashbury",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/haight-ashbury/",
+		"photo": "https://farm5.staticflickr.com/4235/35272377235_9729272b42_z.jpg"
+	},
+	{
+		"id": "Hayes_Valley",
+		"index": 28,
+		"name": "Hayes Valley",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/hayes-valley/",
+		"photo": "https://farm5.staticflickr.com/4241/35159496691_5f3d77cbd6_z.jpg"
+	},
+	{
+		"id": "Hunters_Point",
+		"index": 29,
+		"name": "Hunters Point",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/hunters-point/",
+		"photo": "https://farm5.staticflickr.com/4197/35159607711_b08a72063e_z.jpg"
+	},
+	{
+		"id": "Ingleside",
+		"index": 30,
+		"name": "Ingleside",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/ingleside/",
+		"photo": "https://farm5.staticflickr.com/4228/35249211006_352f17203f_z.jpg"
+	},
+	{
+		"id": "Ingleside_Heights",
+		"index": 31,
+		"name": "Ingleside Heights",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/ingleside-heights/",
+		"photo": "https://farm5.staticflickr.com/4289/35249235016_fa67bd939f_z.jpg"
+	},
+	{
+		"id": "Ingleside_Terrace",
+		"index": 32,
+		"name": "Ingleside Terrace",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/ingleside-terrace/",
+		"photo": "https://farm5.staticflickr.com/4228/35159698281_bcbb7d801f_z.jpg"
+	},
+	{
+		"id": "Inner_Mission",
+		"index": 33,
+		"name": "Inner Mission",
+		"district": "9",
+		"url": "https://zephyrre.com/communities/inner-mission/",
+		"photo": "https://farm5.staticflickr.com/4262/35249281726_7621eaed42_z.jpg"
+	},
+	{
+		"id": "Inner_Parkside",
+		"index": 34,
+		"name": "Inner Parkside",
+		"district": "2",
+		"url": "https://zephyrre.com/communities/inner-parkside/",
+		"photo": "https://farm5.staticflickr.com/4270/34902121880_5b70a9d1f3_z.jpg"
+	},
+	{
+		"id": "Inner_Richmond",
+		"index": 35,
+		"name": "Inner Richmond",
+		"district": "1",
+		"url": "https://zephyrre.com/communities/inner-richmond/",
+		"photo": "https://farm5.staticflickr.com/4281/35159779651_b7092c4062_z.jpg"
+	},
+	{
+		"id": "Inner_Sunset",
+		"index": 36,
+		"name": "Inner Sunset",
+		"district": "2",
+		"url": "https://zephyrre.com/communities/inner-sunset/",
+		"photo": "https://farm5.staticflickr.com/4225/34479603623_77b71935b2_z.jpg"
+	},
+	{
+		"id": "Jordan_Park_Laurel_Heights",
+		"index": 37,
+		"name": "Jordan Park / Laurel Heights",
+		"district": "1",
+		"url": "https://zephyrre.com/communities/jordan-park-laurel-heights/",
+		"photo": "https://farm5.staticflickr.com/4209/35249356126_cf01b3475e_z.jpg"
+	},
+	{
+		"id": "Lake_Shore",
+		"index": 38,
+		"name": "Lake Shore",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/lake-shore/",
+		"photo": "https://farm5.staticflickr.com/4257/34479715493_337502a9bd_z.jpg"
+	},
+	{
+		"id": "Lake_Street",
+		"index": 39,
+		"name": "Lake Street",
+		"district": "1",
+		"url": "https://zephyrre.com/communities/lake-street/",
+		"photo": "https://farm5.staticflickr.com/4283/35159958791_4c97bc1d81_z.jpg"
+	},
+	{
+		"id": "Lakeside",
+		"index": 40,
+		"name": "Lakeside",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/lakeside/",
+		"photo": "https://farm5.staticflickr.com/4218/34445925914_326a568391_z.jpg"
+	},
+	{
+		"id": "Little_Hollywood",
+		"index": 41,
+		"name": "Little Hollywood",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/little-hollywood/",
+		"photo": "https://farm5.staticflickr.com/4218/35249564776_135122bdb2_z.jpg"
+	},
+	{
+		"id": "Lone_Mountain",
+		"index": 42,
+		"name": "Lone Mountain",
+		"district": "1",
+		"url": "https://zephyrre.com/communities/lone-mountain/",
+		"photo": "https://farm5.staticflickr.com/4233/35123631812_9eb9dbb0b9_z.jpg"
+	},
+	{
+		"id": "Lower_Pacific_Heights",
+		"index": 43,
+		"name": "Lower Pacific Heights",
+		"district": "6",
+		"url": "https://zephyrre.com/communities/lower-pacific-heights/",
+		"photo": "https://farm5.staticflickr.com/4247/35160109461_c67d95f410_z.jpg"
+	},
+	{
+		"id": "Marina",
+		"index": 44,
+		"name": "Marina",
+		"district": "7",
+		"url": "https://zephyrre.com/communities/marina/",
+		"photo": "https://farm5.staticflickr.com/4249/34479964003_2ea1dca550_z.jpg"
+	},
+	{
+		"id": "Merced_Heights",
+		"index": 45,
+		"name": "Merced Heights",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/merced-heights/",
+		"photo": "https://farm5.staticflickr.com/4226/35123724662_37b3b71ea6_z.jpg"
+	},
+	{
+		"id": "Merced_Manor",
+		"index": 46,
+		"name": "Merced Manor",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/merced-manor/",
+		"photo": "https://farm5.staticflickr.com/4246/34446136194_ebc0b4cfce_z.jpg"
+	},
+	{
+		"id": "Midtown_Terrace",
+		"index": 47,
+		"name": "Midtown Terrace",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/midtown-terrace/",
+		"photo": "https://farm5.staticflickr.com/4195/34446164184_472287a9dd_z.jpg"
+	},
+	{
+		"id": "Miraloma_Park",
+		"index": 48,
+		"name": "Miraloma Park",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/miraloma-park/",
+		"photo": "https://farm5.staticflickr.com/4229/34902596650_eed8bd4280_z.jpg"
+	},
+	{
+		"id": "Mission_Bay",
+		"index": 49,
+		"name": "Mission Bay",
+		"district": "9",
+		"url": "https://zephyrre.com/communities/mission-bay/",
+		"photo": "https://farm5.staticflickr.com/4202/35123849182_c99d9c7689_z.jpg"
+	},
+	{
+		"id": "Mission_Dolores",
+		"index": 50,
+		"name": "Mission Dolores",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/mission-dolores/",
+		"photo": "https://farm5.staticflickr.com/4209/34446261444_2d75f10e6e_z.jpg"
+	},
+	{
+		"id": "Mission_Terrace",
+		"index": 51,
+		"name": "Mission Terrace",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/mission-terrace/",
+		"photo": "https://farm5.staticflickr.com/4236/34480202283_0356e53b99_z.jpg"
+	},
+	{
+		"id": "Monterey_Heights",
+		"index": 52,
+		"name": "Monterey Heights",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/monterey-heights/",
+		"photo": "https://farm5.staticflickr.com/4205/35290192275_df5de39f4d_z.jpg"
+	},
+	{
+		"id": "Mount_Davidson_Manor",
+		"index": 53,
+		"name": "Mount Davidson Manor",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/mount-davidson-manor/",
+		"photo": "https://farm5.staticflickr.com/4209/35250140126_57341e5cdf_z.jpg"
+	},
+	{
+		"id": "Nob_Hill",
+		"index": 54,
+		"name": "Nob Hill",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/nob-hill/",
+		"photo": "https://farm5.staticflickr.com/4281/34446527324_9399a01709_z.jpg"
+	},
+	{
+		"id": "Noe_Valley",
+		"index": 55,
+		"name": "Noe Valley",
+		"district": "5",
+		"url": "https://zephyrre.com/communities/noe-valley/",
+		"photo": "https://farm5.staticflickr.com/4235/35160655361_daa24f892b_z.jpg"
+	},
+	{
+		"id": "North_Beach",
+		"index": 56,
+		"name": "North Beach",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/north-beach/",
+		"photo": "https://farm5.staticflickr.com/4214/34447776504_ebbfdb5d69_z.jpg"
+	},
+	{
+		"id": "North_Panhandle",
+		"index": 57,
+		"name": "North Panhandle (NOPA)",
+		"district": "6",
+		"url": "https://zephyrre.com/communities/north-panhandle/",
+		"photo": "https://farm5.staticflickr.com/4225/35161741111_3a576204a9_z.jpg"
+	},
+	{
+		"id": "North_Waterfront",
+		"index": 58,
+		"name": "North Waterfront",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/north-waterfront/",
+		"photo": "https://farm5.staticflickr.com/4267/34481752473_12e30631c0_z.jpg"
+	},
+	{
+		"id": "Oceanview",
+		"index": 59,
+		"name": "Oceanview",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/oceanview/",
+		"photo": "https://farm5.staticflickr.com/4227/34481778313_d42948e4f4_z.jpg"
+	},
+	{
+		"id": "Outer_Mission",
+		"index": 60,
+		"name": "Outer Mission",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/outer-mission/",
+		"photo": "https://farm5.staticflickr.com/4221/35291823305_68ce59cec0_z.jpg"
+	},
+	{
+		"id": "Outer_Parkside",
+		"index": 61,
+		"name": "Outer Parkside",
+		"district": "2",
+		"url": "https://zephyrre.com/communities/outer-parkside/",
+		"photo": "https://farm5.staticflickr.com/4281/35251523326_37051cbae2_z.jpg"
+	},
+	{
+		"id": "Outer_Richmond",
+		"index": 62,
+		"name": "Outer Richmond",
+		"district": "1",
+		"url": "https://zephyrre.com/communities/outer-richmond/",
+		"photo": "https://farm5.staticflickr.com/4289/35291872925_484736fdf2_z.jpg"
+	},{
+		"id": "Outer_Sunset",
+		"index": 63,
+		"name": "Outer Sunset",
+		"district": "2",
+		"url": "https://zephyrre.com/communities/outer-sunset/",
+		"photo": "https://farm5.staticflickr.com/4226/34904443570_c4571d7a45_z.jpg"
+	},
+	{
+		"id": "Pacific_Heights",
+		"index": 64,
+		"name": "Pacific Heights",
+		"district": "7",
+		"url": "https://zephyrre.com/communities/pacific-heights/",
+		"photo": "https://farm5.staticflickr.com/4218/35125630452_53d6bb6512_z.jpg"
+	},
+	{
+		"id": "Parkside",
+		"index": 65,
+		"name": "Parkside",
+		"district": "2",
+		"url": "https://zephyrre.com/communities/parkside/",
+		"photo": "https://farm5.staticflickr.com/4230/34481973403_186ab88a63_z.jpg"
+	},
+	{
+		"id": "Pine_Lake_Park",
+		"index": 66,
+		"name": "Pine Lake Park",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/pine-lake-park/",
+		"photo": "https://farm5.staticflickr.com/4236/35292007875_dd776506d5_z.jpg"
+	},
+	{
+		"id": "Portola",
+		"index": 67,
+		"name": "Portola",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/portola/",
+		"photo": "https://farm5.staticflickr.com/4226/34904579760_e74a00570d_z.jpg"
+	},
+	{
+		"id": "Potrero_Hill",
+		"index": 68,
+		"name": "Potrero Hill",
+		"district": "9",
+		"url": "https://zephyrre.com/communities/potrero-hill/",
+		"photo": "https://farm5.staticflickr.com/4245/35251698126_543fac84ab_z.jpg"
+	},
+	{
+		"id": "Presidio_Heights",
+		"index": 69,
+		"name": "Presidio Heights",
+		"district": "7",
+		"url": "https://zephyrre.com/communities/presidio-heights/",
+		"photo": "https://farm5.staticflickr.com/4196/35162186061_c1309c7b85_z.jpg"
+	},
+	{
+		"id": "Russian_Hill",
+		"index": 70,
+		"name": "Russian Hill",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/russian-hill/",
+		"photo": "https://farm5.staticflickr.com/4212/34904719510_3c8038fb12_z.jpg"
+	},
+	{
+		"id": "St_Francis_Wood",
+		"index": 71,
+		"name": "St. Francis Wood",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/saint-francis-wood/",
+		"photo": "https://farm5.staticflickr.com/4257/35162643691_ac407dc62a_z.jpg"
+	},
+	{
+		"id": "Sea_Cliff",
+		"index": 72,
 		"name": "Sea Cliff",
 		"district": "1",
 		"url": "https://zephyrre.com/communities/sea-cliff/",
 		"photo": "https://farm5.staticflickr.com/4206/35292385745_ca20aac527_z.jpg"
 	},
 	{
-		"id": "Alamo_Square",
-		"index": 1,
-		"name": "Alamo Square",
+		"id": "Sherwood_Forest",
+		"index": 73,
+		"name": "Sherwood Forest",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/sherwood-forest/",
+		"photo": "https://farm5.staticflickr.com/4260/34448517804_9691ece66e_z.jpg"
+	},
+	{
+		"id": "Silver_Terrace",
+		"index": 74,
+		"name": "Silver Terrace",
+		"district": "10",
+		"url": "https://zephyrre.com/communities/silver-terrace/",
+		"photo": "https://farm5.staticflickr.com/4253/34905115220_067b92e64e_z.jpg"
+	},
+	{
+		"id": "South_Beach",
+		"index": 75,
+		"name": "South Beach",
+		"district": "9",
+		"url": "https://zephyrre.com/communities/south-beach/",
+		"photo": "https://farm5.staticflickr.com/4287/35126165942_acf07d8345_z.jpg"
+	},
+	{
+		"id": "South_of_Market",
+		"index": 76,
+		"name": "South of Market",
+		"district": "9",
+		"url": "https://zephyrre.com/communities/south-of-market-soma/",
+		"photo": "https://farm5.staticflickr.com/4250/34905255710_4c98f72e83_z.jpg"
+	},
+	{
+		"id": "Stonestown",
+		"index": 77,
+		"name": "Stonestown",
+		"district": "3",
+		"url": "https://zephyrre.com/communities/stonestown/",
+		"photo": "https://farm5.staticflickr.com/4265/35126236642_a5fcf4e970_z.jpg"
+	},
+	{
+		"id": "Sunnyside",
+		"index": 78,
+		"name": "Sunnyside",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/sunnyside/",
+		"photo": "https://farm5.staticflickr.com/4220/35252292306_5d920d2c20_z.jpg"
+	},
+	{
+		"id": "Telegraph_Hill",
+		"index": 79,
+		"name": "Telegraph Hill",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/telegraph-hill/",
+		"photo": "https://farm5.staticflickr.com/4252/35252311286_9aa840001d_z.jpg"
+	},
+	{
+		"id": "Tenderloin",
+		"index": 80,
+		"name": "Tenderloin",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/tenderloin/",
+		"photo": "https://farm5.staticflickr.com/4240/35126339622_7491ceeb69_z.jpg"
+	},
+	{
+		"id": "Twin_Peaks",
+		"index": 81,
+		"name": "Twin Peaks",
+		"district": "5",
+		"url": "https://zephyrre.com/communities/twin-peaks/",
+		"photo": "https://farm5.staticflickr.com/4246/34905470800_54dd7caec4_z.jpg"
+	},
+	{
+		"id": "Van_Ness_Civic_Center",
+		"index": 82,
+		"name": "Van Ness / Civic Center",
+		"district": "8",
+		"url": "https://zephyrre.com/communities/van-nesscivic-center/",
+		"photo": "https://farm5.staticflickr.com/4209/35126483262_acb2fbaa09_z.jpg"
+	},
+	{
+		"id": "Visitacion_Valley",
+		"index": 83,
+		"name": "Visitacion Valley",
+		"district": "19",
+		"url": "https://zephyrre.com/communities/visitacion-valley/",
+		"photo": "https://farm5.staticflickr.com/4280/35162958121_666f3b95ae_z.jpg"
+	},
+	{
+		"id": "West_Portal",
+		"index": 84,
+		"name": "West Portal",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/west-portal/",
+		"photo": "https://farm5.staticflickr.com/4222/35252572886_f492414fbf_z.jpg"
+	},
+	{
+		"id": "Western_Addition",
+		"index": 85,
+		"name": "Western Addition",
 		"district": "6",
-		"url": "https://zephyrre.com/communities/alamo-square/",
-		"photo": "https://farm5.staticflickr.com/4268/35231616256_f95638557d_z.jpg"
+		"url": "https://zephyrre.com/communities/western-addition/",
+		"photo": "https://farm5.staticflickr.com/4273/35252583036_ba02052b9d_z.jpg"
+	},
+	{
+		"id": "Westwood_Highlands",
+		"index": 86,
+		"name": "Westwood Highlands",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/westwood-highlands/",
+		"photo": "https://farm5.staticflickr.com/4231/35163049231_5280849cf0_z.jpg"
+	},
+	{
+		"id": "Westwood_Park",
+		"index": 87,
+		"name": "Westwood Park",
+		"district": "4",
+		"url": "https://zephyrre.com/communities/westwood-park/",
+		"photo": "https://farm5.staticflickr.com/4238/35163059831_3a33049f66_z.jpg"
+	},
+	{
+		"id": "Yerba_Buena",
+		"index": 88,
+		"name": "Yerba Buena",
+		"district": "9",
+		"url": "https://zephyrre.com/communities/yerba-buena/",
+		"photo": "https://farm5.staticflickr.com/4257/34449092184_5406fc1c9c_z.jpg"
+	},
+	{
+		"id": "Presidio",
+		"index": 89,
+		"name": "Presidio",
+		"district": "Parks",
+		"url": "https://www.presidio.gov/",
+		"photo": "https://farm5.staticflickr.com/4240/34479967593_fc6eb10764_z.jpg"
+	},
+	{
+		"id": "Golden_Gate_Park",
+		"index": 90,
+		"name": "Golden Gate Park",
+		"district": "Parks",
+		"url": "https://goldengatepark.com/",
+		"photo": "https://farm5.staticflickr.com/4231/35159777961_8fb7df6ced_z.jpg"
+	},
+	{
+		"id": "Lands_End",
+		"index": 91,
+		"name": "Lands End",
+		"district": "Parks",
+		"url": "https://www.nps.gov/goga/planyourvisit/landsend.htm",
+		"photo": "https://farm5.staticflickr.com/4233/35291873465_3312ef1c14_z.jpg"
+	},
+	{
+		"id": "Ocean_Beach",
+		"index": 92,
+		"name": "Ocean Beach",
+		"district": "Parks",
+		"url": "https://www.nps.gov/goga/planyourvisit/oceanbeach.htm",
+		"photo": "https://farm5.staticflickr.com/4254/35291873625_cc5fdb4069_z.jpg"
 	}
 ]
